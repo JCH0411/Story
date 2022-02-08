@@ -11,6 +11,7 @@ how to set up git and github
 9. git checkout "fileName" will revert back to the last version that was commited 
 
 how to set up remote to github and committing
+------------------Remote----------------------------------
 1. under the same directory loaclly can be commited remotely to git hub (this is regarding the same file above so make sure your in the same directory )
 2. go  to git hub and create a new repository and get the web link after creating repository
 3. then use the lines of code given on the same screen as the link when creating the github repository 
