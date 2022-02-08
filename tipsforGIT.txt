@@ -18,3 +18,10 @@ how to set up remote to github and committing
 4. in terminal do under the same locally directory (file) ->  git remote add origin "then the web link"
 5. So now you can push using the remote name origin -->> git push -u origin master
 6. so first do git add "filename" then git push -u origin master
+
+---------------------to ignore and hide files---------------------------------
+1. ds_store saves settings and user profiles and its a hidden file
+2. create hidden file first .gitignore
+3. then create the git init to create git for dir -> git init
+4. use -->>(git rm --cashed -r .)----- to remove all files from staging area
+5. to add certain files to be ignored--->> add the files names to the gitignore file for the files you want to ignore
