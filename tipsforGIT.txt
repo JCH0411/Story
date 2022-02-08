@@ -1,0 +1,19 @@
+how to set up git and github
+---------locale-----------------------------------------
+1. in terminal underfile or directory do all the commands
+2. git init ( git status shows uncommited files)
+3. git add "then filename to add to staging"   ( or do git add . to add more than one file)
+4. git commit -m "savePointName"
+5. the commit is now saved locally
+6. git log     shows all commits
+7. git status will show un commited changes
+8. git diff "fileName"  (shows the difference between a file with unsaved changes)
+9. git checkout "fileName" will revert back to the last version that was commited 
+
+how to set up remote to github and committing
+1. under the same directory loaclly can be commited remotely to git hub (this is regarding the same file above so make sure your in the same directory )
+2. go  to git hub and create a new repository and get the web link after creating repository
+3. then use the lines of code given on the same screen as the link when creating the github repository 
+4. in terminal do under the same locally directory (file) ->  git remote add origin "then the web link"
+5. So now you can push using the remote name origin -->> git push -u origin master
+6. so first do git add "filename" then git push -u origin master
