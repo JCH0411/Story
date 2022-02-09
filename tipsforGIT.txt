@@ -12,7 +12,7 @@ how to set up git and github
 
 how to set up remote to github and committing
 ------------------Remote----------------------------------
-1. under the same directory loaclly can be commited remotely to git hub (this is regarding the same file above so make sure your in the same directory )
+1. under the same directory locally can be commited remotely to git hub (this is regarding the same file above so make sure your in the same directory )
 2. go  to git hub and create a new repository and get the web link after creating repository
 3. then use the lines of code given on the same screen as the link when creating the github repository 
 4. in terminal do under the same locally directory (file) ->  git remote add origin "then the web link"
@@ -41,3 +41,5 @@ creates dir in the dir you were in when cloning
 6. the branch you merged still exist
 7. you can then do -->> git push origin master -u to push to github
 8. you can also branch inside github itself
+-----------forking and pulling (collaberation)--------------------------------
+
