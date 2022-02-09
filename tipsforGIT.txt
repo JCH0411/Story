@@ -40,3 +40,4 @@ creates dir in the dir you were in when cloning
 5. to merge branches go back to master branch then use -->> git merge "name of branch"
 6. the branch you merged still exist
 7. you can then do -->> git push origin master -u to push to github
+8. you can also branch inside github itself
