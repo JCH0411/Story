@@ -20,8 +20,12 @@ how to set up remote to github and committing
 6. so first do git add "filename" then git push -u origin master
 
 ---------------------to ignore and hide files---------------------------------
-1. ds_store saves settings and user profiles and its a hidden file
+1. .ds_store saves settings and user profiles and its a hidden file
 2. create hidden file first .gitignore
-3. then create the git init to create git for dir -> git init
-4. use -->>(git rm --cashed -r .)----- to remove all files from staging area
-5. to add certain files to be ignored--->> add the files names to the gitignore file for the files you want to ignore
+3. then create the git init to create git for dir(so your making a git for the folder) -> git init
+4. then add your files in the folder using git add (name of file or . for all) -->> so 
+5. but if you dont want to commit some files before commit you need to add those files names to the gitignore file
+6. use -->>(git rm --cashed -r .)----- to remove all files from staging area so you can add which ever to gitignore
+7. to add certain files to be ignored--->> add the files names to the gitignore file for the files you want to ignore and save
+8. in your gitignore file (*.txt will ignore all the files with a txt file)
+----------------cloning--------------------------------------------------------
