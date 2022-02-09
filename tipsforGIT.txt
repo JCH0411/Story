@@ -29,3 +29,14 @@ how to set up remote to github and committing
 7. to add certain files to be ignored--->> add the files names to the gitignore file for the files you want to ignore and save
 8. in your gitignore file (*.txt will ignore all the files with a txt file)
 ----------------cloning--------------------------------------------------------
+1.in github just get the link for the project under cloning
+2. then in hyper terminal do git clone then th url so -->> git clone https://github.com/austinzheng/swift-2048.git
+creates dir in the dir you were in when cloning
+--------------------branching and merging--------------------------------------
+1. can create experimental branches by branching used for testing new units 
+2. under the directory you want to branch do -->> git branch "name of new branch"
+3. git branch---- shows all the branches you have with * next to the one using 
+4. switch to another branch by using -->> git checkout "branch-name" 
+5. to merge branches go back to master branch then use -->> git merge "name of branch"
+6. the branch you merged still exist
+7. you can then do -->> git push origin master -u to push to github
