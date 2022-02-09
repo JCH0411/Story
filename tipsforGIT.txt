@@ -42,4 +42,8 @@ creates dir in the dir you were in when cloning
 7. you can then do -->> git push origin master -u to push to github
 8. you can also branch inside github itself
 -----------forking and pulling (collaberation)--------------------------------
+1. forking means you own a copy so you can do what you want to the code
+2. in github you can fork someones project. this is a copy
+3. once forked and in another account you can add to it. once the forked account makes changes they show up in original owners changes
+4. the new owner can then make a pull request for the old owner to approve it and add it to the original project
 
